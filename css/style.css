@@ -1,18 +1,17 @@
 body {
-    /*font: 400 15px/1.8 Metal Mania, cursive;*/
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fredoka One', cursive;
     font-weight: 500;
     font-size: 18px;
     color: #777;
 }
   
 h3, h4 {
-    margin: 10px 0 30px 0;
-    letter-spacing: 10px; 
+    margin: 30px 0 15px 0;
+    letter-spacing: 6px;
     font-size: 22px;
     color: #111;
     font-weight: 800;
-    
+    text-shadow: 1px 1px 3px black;
   }
   
 .form-control {
@@ -41,23 +40,37 @@ textarea {
     border-color: #f1f1f1;
 }
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
+    /*-webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */ 
     width: 100%; /* Set width to 100% */
     margin: auto;
 }
   
 .carousel-caption h3 {
-    color: #fff !important;
+    color: #ff6966 !important;
     text-shadow: 1px 1px 3px black;
 }
   
 .bg-1 {
-    background: #3c000d;
+    background: #ff6966;
+    color: #bdbdbd;
+}
+
+.bg-2 {
+    background: #2e4d66;
     color: #bdbdbd;
 }
 .bg-1 h3 {color: #fff;}
 .bg-1 p {font-style: italic;}
+.bg-2 h2 {color: #ff6966;}
+.bg-1 h2 {color: #2e4d66;}
+.bg-1 p, .bg-2 h3, .bg-2 p {color: #fdcb98;}
+
+.slcc-website {
+    color: #2e4d66 !important;
+}
+
+.text-center {margin-bottom: 0 !important;}
 
 .list-group-item:first-child {
     border-top-right-radius: 0;
@@ -112,9 +125,13 @@ textarea {
     float: initial;
 }
 
+.navbar-header {
+    position: relative;
+}
+
 .navbar {
     margin-bottom: 0;
-    background-color: white;
+    background-color: #fdcb98;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
@@ -122,19 +139,19 @@ textarea {
   }
   
 .navbar li a, .navbar .navbar-brand { 
-    color: black !important;
-    font-family: 'Architects Daughter', cursive;
+    color: #2e4d66 !important;
+    font-family: 'Fredoka One', cursive;
     font-size: 16px;
 
 }
   
 .navbar-nav li a:hover {
-    color: #3c000d !important;
+    color: #ff6966 !important;
 }
 
 .navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#3c000d !important;
+    color: white !important;
+    background-color:#ff6966 !important;
 }
   
 .navbar-default .navbar-toggle {
@@ -143,6 +160,13 @@ textarea {
 }
 
 .navbar-right {margin-top: 20px;}
+
+.logo-text {
+    position: absolute;
+    top: 20px;
+    left: 62px;
+    color: #2e4d66;
+}
 
 .dropdown-menu li a:hover {
     background-color: #3c000d !important;
@@ -159,17 +183,17 @@ textarea {
 }
 
 footer {
-    background-color: #3c000d;
+    background-color: #2e4d66;
     color: #f5f5f5;
     padding: 32px;
 }
   
-footer a {
-    color: #f5f5f5;
+footer p, footer a {
+    color: #fdcb98;
 }
   
 footer a:hover {
-    color: #777;
+    color: #ff6966;
     text-decoration: none;
 }
 
@@ -180,23 +204,6 @@ footer a:hover {
 .person {
     width: 120px;
     height: 120px;
-}
-
-img[src^="img/city"] {
-   max-height: 200px;
-   height: 100%;
-}
-
-img[src^="img/album"] {
-    max-height: 250px;
-    height: 100%;
-}
-
-img[src^="img/Rammstein"] {
-    max-width: 200px;
-    width: 100%;
-    border: 10px solid transparent;
-    margin-top: 10px;
 }
 
 button[onclick^="window.location.href"] {
@@ -212,9 +219,6 @@ button[onclick^="window.location.href"] {
     color: #3c000d;
 }
 
-img[src^="img/Rammstein"]:hover {
-    border-color: #f1f1f1;
-}
 
 .fa {
     width: 15px;
@@ -223,10 +227,35 @@ img[src^="img/Rammstein"]:hover {
 
 
 
+
+
+@media (max-width: 900px) {
+    .container {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-text {top: 34px;}
+    .container-fluid {
+        padding-left: 25px;
+        background-color: #fdcb98;
+    }
+    .navbar {height: 70px;}
+    .navbar li a, .navbar .navbar-brand {font-size: 14px;}
+}
+
 @media (max-width: 600px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-}
+    }
+    .carousel {
+        margin-top: 85px;
+    }
+
 }
 
-
+@media (max-width: 500px) {
+    p {font-size: 17px;}
+    h2 {font-size: 28px;}
+}
