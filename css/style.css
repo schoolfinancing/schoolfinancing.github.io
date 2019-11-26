@@ -262,7 +262,7 @@ a[href^="tel:"], a[href^="mailto:"] {
     }
     .navbar {height: 70px;}
     .navbar li a, .navbar .navbar-brand {font-size: 14px;}
-    h2 {margin-top: 45px;}
+    h2 {margin-top: 55px;}
 }
 
 @media (max-width: 600px) {
