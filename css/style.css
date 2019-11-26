@@ -14,7 +14,7 @@ h3, h4 {
     text-shadow: 1px 1px 3px black;
 }
 
-h2 {margin: 25px 0px 30px 0px}
+h2 {margin: 35px 0px 30px 0px}
   
 .form-control {
     border-radius: 0;
@@ -262,6 +262,7 @@ a[href^="tel:"], a[href^="mailto:"] {
     }
     .navbar {height: 70px;}
     .navbar li a, .navbar .navbar-brand {font-size: 14px;}
+    h2 {margin-top: 45px;}
 }
 
 @media (max-width: 600px) {
@@ -271,6 +272,7 @@ a[href^="tel:"], a[href^="mailto:"] {
     .carousel {
         margin-top: 85px;
     }
+    
 
 }
 
