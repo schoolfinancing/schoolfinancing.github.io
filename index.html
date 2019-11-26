@@ -58,7 +58,18 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>HOME</a></li>
-          <li><a href="#options"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>YOUR OPTIONS</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>YOUR OPTIONS
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#scholarships"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Scholarships</a></li>
+              <li><a href="#fafsa"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> FAFSA</a></li>
+              <li><a href="#privateLoans"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Private loans</a></li> 
+              <li><a href="#specific"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> SLCC Financial aid office
+              </a></li> 
+            </ul>
+          </li>
           <li><a href="#help"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>GET HELP</a></li>
         </ul>
       </div>
@@ -75,7 +86,7 @@
         <div class="item active">
           <img src="img/graduate1.jpg" alt="School Financing">
           <div class="carousel-caption">
-            <h3>Do you know all your financial options?</h3>
+            <h3>School Financing for Salt Lake Community College Students</h3>
           </div> 
         </div>
     
@@ -103,37 +114,43 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="bg-2">
-      <div class="container text-center" id="options">
-        <h2>School Financing for Salt Lake Community College Students</h3>
-        <span>We believe that everyone deserves fair financing options, and we are here to provide you with the knowledge needed to find them!</span>
-        <br>
-        <h3>Scholarships</h2>
+    <div class="bg-1">
+      <div class="container text-center" id="scholarships">
+        <h2>Scholarships</h2>
         <p>Scholarships and tuition waivers are available at SLCC. Look into SLCC sponsered scholarships like the Presidential Scholarship or the Western Undergraduate Exchange Program, but also take a look at private scholarships like Wells Fargo's CollegeSTEPS scholarship or the ACLU Student Activist scholarship.</p>
-        <h3>FAFSA</h2>
+      </div>
+    </div>
+    <div class="bg-2">
+      <div class="container text-center" id="fafsa">
+        <h2>FAFSA</h2>
         <p>FAFSA is the Free Application for Federal Student Aid. This is your one stop shop to apply for federally funded grants, loans, and work-study programs that will help finance your education. Your financial aid office can help you through the application process or any questions you may have about FASFA.</p>
-        <h3>Private loans</h2>
+      </div>
+    </div>
+    <div class="bg-1">
+      <div class="container text-center" id="privateLoans">
+        <h2>Private loans</h2>
         <p>Many financial institutions will offer private student loans that you can use to pay for your degree(s).Companies like Wells Fargo offer private loans in addition to the scholarships they offer. Other companies, like Discover, offer student loans that offer cash rewards or other incentives for performing well and getting good grades.</p>
-        <h3>SLCC  SPECIFIC OPTIONS</h2>
-        <p>
-          SLCC offers its own fiancial aid programs such as SLCC Promise, which is a SLCC specific scholarship, and work-study programs where SLCC sets its own requirements for aid.</p>
+      </div>
+    </div>
+    <div class="bg-2">
+      <div class="container text-center" id="specific">
+        <h2>SLCC Specific Options</h2>
+        <p>SLCC offers its own fiancial aid programs such as SLCC Promise, which is a SLCC specific scholarship, and work-study programs where SLCC sets its own requirements for aid.</p>
       </div>
     </div>
       <div class="bg-1">
         <div class="container text-center" id="help">
           <h2>SLCC Financial aid office</h3>
-          
-            
             <div>
-              
               <p><span class="glyphicon glyphicon-map-marker"></span>  Salt Lake Community College, PO Box 30808, Salt Lake City, UT 84130-0808</p>
-              <p><span class="glyphicon glyphicon-phone"></span>  Phone: 801-957-4410</p>
-              <p><span class="glyphicon glyphicon-envelope"></span>  Email: FinancialAid@slcc.edu</p> 
-              <a href="http://www.slcc.edu/financialaid/contact.aspx" class="slcc-website">Contact SLCC Financial aid office</a>
+              <p><span class="glyphicon glyphicon-phone"></span>  Phone: <a href="tel:801-957-4410">801-957-4410</a></p>
+              <p><span class="glyphicon glyphicon-envelope"></span>  Email: <a href="mailto:FinancialAid@slcc.edu">FinancialAid@slcc.edu</a></p> 
+              <a href="http://www.slcc.edu/financialaid/contact.aspx" class="slcc-website">SLCC Financial aid office website</a>
             </div>
             
         </div>
       </div>
+      
     
 
     <footer class="text-center">

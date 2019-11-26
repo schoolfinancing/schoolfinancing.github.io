@@ -12,7 +12,9 @@ h3, h4 {
     color: #111;
     font-weight: 800;
     text-shadow: 1px 1px 3px black;
-  }
+}
+
+h2 {margin: 25px 0px 30px 0px}
   
 .form-control {
     border-radius: 0;
@@ -47,8 +49,9 @@ textarea {
 }
   
 .carousel-caption h3 {
-    color: #ff6966 !important;
-    text-shadow: 1px 1px 3px black;
+    color: #2e4d66!important;
+    text-shadow: 2px 1px 0px #fdcb98;
+    letter-spacing: 4px;
 }
   
 .bg-1 {
@@ -139,10 +142,10 @@ textarea {
   }
   
 .navbar li a, .navbar .navbar-brand { 
-    color: #2e4d66 !important;
+    color: white !important;
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
-
+    text-shadow: 1px 1px 2px black;
 }
   
 .navbar-nav li a:hover {
@@ -166,20 +169,32 @@ textarea {
     top: 20px;
     left: 62px;
     color: #2e4d66;
+    text-shadow: 0px 0px 0px black;;
+}
+
+.dropdown-menu {
+    padding: 0px;
 }
 
 .dropdown-menu li a:hover {
-    background-color: #3c000d !important;
+    background-color: #2e4d66 !important;
     color: white !important;
     
 }
 .open .dropdown-toggle {
     color: #fff ;
-    background-color: #555 !important;
+    background-color: #2e4d66 !important;
 }
   
 .dropdown-menu li a {
-    color: #000 !important;
+    color: #2e4d66 !important;
+    text-shadow: 0px 0px 0px black;
+    letter-spacing: 3px;
+}
+
+.dropdown-menu.active li a {
+    
+    color: #2e4d66 !important;
 }
 
 footer {
@@ -223,6 +238,10 @@ button[onclick^="window.location.href"] {
 .fa {
     width: 15px;
     height: 15px;
+}
+
+a[href^="tel:"], a[href^="mailto:"] {
+    color: #2e4d66;
 }
 
 
