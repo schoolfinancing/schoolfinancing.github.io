@@ -272,6 +272,9 @@ button[onclick^="window.location.href"] {
     background-color: #ddd0;
 }
 
+/*.img-workstudy {
+    max-width: 650px !important;
+}*/
 
 
 @media (max-width: 900px) {
