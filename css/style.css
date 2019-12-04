@@ -94,7 +94,10 @@ textarea {
 
 .text-center {margin-bottom: 0 !important;}
 
-.text-left {text-indent: -4em;}
+.text-left {
+    text-indent: -1em;
+    word-wrap: break-word;
+}
 
 .list-group-item:first-child {
     border-top-right-radius: 0;
