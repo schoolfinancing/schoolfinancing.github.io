@@ -14,6 +14,16 @@ h3, h4 {
     text-shadow: 1px 1px 3px black;
 }
 
+span a {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+
+span a:hover {
+    color: #fff;
+}
+
 h2 {margin: 35px 0px 30px 0px}
   
 .form-control {
@@ -64,7 +74,6 @@ textarea {
     color: #bdbdbd;
 }
 .bg-1 h3 {color: #fff;}
-.bg-1 p {font-style: italic;}
 .bg-2 h2 {color: #ff6966;}
 .bg-1 h2 {color: #2e4d66;}
 .bg-1 p, .bg-2 h3, .bg-2 p {color: #fdcb98;}
